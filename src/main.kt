@@ -39,8 +39,14 @@ fun main() {
     var numbers= arrayOf(34,56,87,90,12,3,58)
     numbers.forEach { numbers ->
     println(numbers +100)
+
+        printUppercaseNames(arrayOf("john","kelo","joe"))
+
     }
 
-
+}
+    fun printUppercaseNames(names:Array<String>){
+    names.forEach { x->
+     println(x.uppercase())}
 
 }
